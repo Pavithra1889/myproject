@@ -1,0 +1,10 @@
+version: '3'
+services:
+  Test1:
+    image: nginx
+    ports:
+     - "81:80"
+  Test2:
+    image: httpd
+    ports:
+     - "80:80"
